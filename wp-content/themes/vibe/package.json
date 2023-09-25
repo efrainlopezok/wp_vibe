@@ -1,0 +1,47 @@
+{
+  "name": "bootstrap-for-genesis",
+  "version": "2.0.2",
+  "description": "Genesis child theme based on Bootstrap 4",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github/webdevsuperfast/bootstrap-for-genesis.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "genesis",
+    "wordpress"
+  ],
+  "author": "Rotsen Mark Acob",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/webdevsuperfast/bootstrap-for-genesis",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-changed": "^3.2.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-combine-mq": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-flatmap": "^1.0.2",
+    "gulp-jsbeautifier": "^2.1.2",
+    "gulp-jshint": "^2.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0",
+    "jquery": "^3.3.1",
+    "jshint": "^2.9.5",
+    "merge-stream": "^1.0.1",
+    "popper.js": "^1.14.3",
+    "run-sequence": "^2.2.1",
+    "vinyl-paths": "^2.1.0"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "4.1.1",
+    "font-awesome": "^4.7.0",
+    "smartmenus": "^1.1.0",
+    "smartmenus-bootstrap-4": "^0.1.0"
+  }
+}

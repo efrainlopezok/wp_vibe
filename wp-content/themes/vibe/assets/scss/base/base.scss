@@ -1,0 +1,224 @@
+/* ## Typographical Elements
+--------------------------------------------- */
+
+body {
+    background-color: #fff;
+    color: #202020;
+    font-family: $font-regular;
+    font-size: 15px;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.67;
+    margin: 0;
+}
+
+a,
+button,
+input:focus,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+textarea:focus,
+.button,
+.gallery img {
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+::-moz-selection {
+    background-color: #333;
+    color: #fff;
+}
+
+::selection {
+    background-color: #333;
+    color: #fff;
+}
+
+a {
+    color: #e5554e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+}
+
+p {
+    margin: 0 0 28px;
+    padding: 0;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+blockquote,
+cite,
+em,
+i {
+    font-style: italic;
+}
+
+blockquote {
+    margin: 40px;
+}
+
+blockquote::before {
+    content: "\201C";
+    display: block;
+    font-size: 30px;
+    height: 0;
+    left: -20px;
+    position: relative;
+    top: -10px;
+}
+
+
+/* ## Headings
+--------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+    font-family: $font-titles;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0 0 10px;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+
+/* ## Objects
+--------------------------------------------- */
+
+embed,
+iframe,
+img,
+object,
+video,
+.wp-caption {
+    max-width: 100%;
+}
+
+img {
+    height: auto;
+}
+
+.featured-content img,
+.gallery img {
+    width: auto;
+}
+
+
+/* ## Tables
+--------------------------------------------- */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    line-height: 2;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+tbody {
+    border-bottom: 1px solid #ddd;
+}
+
+td,
+th {
+    text-align: left;
+}
+
+td {
+    border-top: 1px solid #ddd;
+    padding: 6px 0;
+}
+
+th {
+    font-weight: 400;
+}
+
+*:focus {
+    outline: none;
+}
+
+.gform_wrapper {
+    margin-top: 0px !important;
+    li.hidden_label input,
+    ul li.gfield,
+    .gform_footer {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+    input,
+    select,
+    textarea {
+        border-top: 0px;
+        border-right: 0px;
+        border-left: 0px;
+        border-bottom: solid 1px #979797;
+        margin-bottom: 20px;
+        width: 100% !important;
+        padding: 0px 0px 18px 0px !important;
+        @include placeholder {
+            color: #000;
+        }
+    }
+    input[type="submit"] {
+        width: auto !important;
+        background-color: #2e3192;
+        min-width: 170px;
+        min-height: 43px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: 0px;
+        padding: 10px 10px !important;
+    }
+}
